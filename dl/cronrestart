@@ -1,0 +1,2 @@
+/usr/syno/etc/rc.d/S04crond.sh stop
+/usr/syno/etc/rc.d/S04crond.sh start
