@@ -1,5 +1,5 @@
 #crontab line to use
-# use crontab -e to enter it and,
+# add it into /etc/crontab file,
 # cronrestart to activate it
 
 *	0-16	*	*	*	root	/bin/echo "cron running at $(date)" >> /opt/pinti/log/cron.log; cd /opt/pinti/; ./dl.sh 2>&1 >> /opt/pinti/log/dl.log
