@@ -1,0 +1,16 @@
+{% extends "common/base_site.html" %}
+{% load i18n %}
+{% block title %}{% trans "Aylik"%}{% endblock %}
+
+{% block content %}
+<div>
+    Welcome, to <b>Pinti</b> project.<br/>
+    Some things to do around here:
+    <ul>
+        <li><a href="{% url pinti.views.item_index %}">Download items</a></li>
+        <li><a href="/item/rss/">Download feed</a></li>
+        <li><a href="/_ah/admin">Admin interface</a> (admin)</li>
+        <li><a href="/accounts/register/">register</a></li>
+    </ul>
+</div>
+{% endblock %}

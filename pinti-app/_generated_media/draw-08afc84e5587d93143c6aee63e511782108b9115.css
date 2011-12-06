@@ -1,0 +1,45 @@
+/* http://keith-wood.name/svg.html
+   SVG for jQuery v1.4.2.
+   Written by Keith Wood (kbwood{at}iinet.com.au) August 2007.
+   Dual licensed under the GPL (http://dev.jquery.com/browser/trunk/jquery/GPL-LICENSE.txt) and 
+   MIT (http://dev.jquery.com/browser/trunk/jquery/MIT-LICENSE.txt) licenses. 
+   Please attribute the author if you use it. */
+
+svg\:svg {
+	display: none;
+}
+
+.svg_error {
+	color: red;
+	font-weight: bold;
+}
+
+
+/**  Canvas styles for drawing distribution graphics _hd */
+.canvas {
+	position: relative;
+	width: 100%;
+	height: 20px;
+}
+
+.label_holder {
+	position:relative;
+	font-size: 8px;
+}
+
+.label_holder_l {
+	position:absolute;
+	top:-5px;
+	left:0px;
+}
+
+.label_holder_r {
+	position:absolute;
+	top:-5px;
+	right:5px;
+}
+
+/* distribution header */
+th#distribution_header {
+	width : 320px;
+}
